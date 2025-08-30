@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    android:id="@+id/Item_Inicio"
+    android:title="@string/Item_Inicio"
+        android:icon="@drawable/ic_inicio"
+    />
+    <item
+        android:id="@+id/Item_Chats"
+        android:title="@string/Item_Chats"
+        android:icon="@drawable/ic_chats"
+        />
+    <item
+        android:id="@+id/Item_Trueques"
+        android:title="@string/Item_Trueques"
+        android:enabled="false"
+        />
+    <item
+        android:id="@+id/Item_Mis_Anuncios"
+        android:title="@string/Item_Mis_Anuncios"
+        android:icon="@drawable/ic_mis_anuncios"
+        />
+    <item
+        android:id="@+id/Item_Cuenta"
+        android:title="@string/Item_Cuenta"
+        android:icon="@drawable/ic_cuenta"
+        />
+
+</menu>

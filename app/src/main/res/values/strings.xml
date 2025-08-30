@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Trueques Peru</string>
+
+    <string name="Item_Inicio">Inicio</string>
+    <string name="Item_Chats">Chats</string>
+    <string name="Item_Trueques">Trueques</string>
+    <string name="Item_Mis_Anuncios">Anuncios</string>
+    <string name="Item_Cuenta">Cuenta</string>
+    <string name="TituloRl">Titulo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
