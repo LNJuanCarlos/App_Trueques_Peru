@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "720737328010",
+    "project_id": "app-trueques-ad758",
+    "storage_bucket": "app-trueques-ad758.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720737328010:android:a0875c5d96b7edbd578673",
+        "android_client_info": {
+          "package_name": "com.example.truequesperu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7EsInzELkIudRgbER_gkvzAvZzsgOGsc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
