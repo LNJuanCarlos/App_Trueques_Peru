@@ -3,22 +3,25 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <RelativeLayout
-        android:id="@+id/ToolbarRl"
+        android:id="@+id/ToobarRL"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/m_toolbar_height">
+        android:layout_height="@dimen/m_toolbar_height"
+        android:background="@color/mi_color">
 
         <TextView
-            android:id="@+id/TituloRl"
-            android:text="@string/TituloRl"
+            android:id="@+id/TituloRL"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"/>
+            android:layout_centerInParent="true"
+            android:text="@string/TituloRL"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#ffffff"/>
 
         <View
             android:layout_width="match_parent"
@@ -27,15 +30,14 @@
             android:layout_alignParentBottom="true"
             />
 
-
     </RelativeLayout>
 
     <FrameLayout
         android:id="@+id/FragmentL1"
-        android:layout_below="@id/ToolbarRl"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/View1"
+        android:layout_above="@id/View1"
+        android:layout_below="@id/ToobarRL"
         />
 
     <View
@@ -43,7 +45,8 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="#ccc"
-        android:layout_above="@id/BottomNV"/>
+        android:layout_above="@id/BottomNV"
+        />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/BottomNV"
@@ -57,10 +60,11 @@
         android:id="@+id/FAB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_agregar"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="40dp"/>
-
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/iconadd"
+        app:tint="@android:color/white"
+        android:backgroundTint="@color/mi_color"/>
 
 </RelativeLayout>

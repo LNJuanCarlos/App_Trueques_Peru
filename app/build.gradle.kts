@@ -56,4 +56,6 @@ dependencies {
     implementation(libs.retrofit.converter.gson)
     //implementation(project.okhttpCoroutines)
     //implementation(libs.kotlinx.coroutines.core)
+    implementation(libs.firebaseAuth)
+    implementation(libs.firebaseDatabase)
 }

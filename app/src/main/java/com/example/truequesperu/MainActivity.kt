@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
         }
 
     private fun verFragmentInicio(){
-        binding.TituloRl.text = "Inicio"
+        binding.TituloRL.text = "Inicio"
         val fragment = FragmentInicio()
         val fragmentTransaction = supportFragmentManager.beginTransaction()
         fragmentTransaction.replace(binding.FragmentL1.id, fragment, "FragmentInicio")
@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun verFragmentChats(){
-        binding.TituloRl.text = "Chats"
+        binding.TituloRL.text = "Chats"
         val fragment = FragmentChats()
         val fragmentTransaction = supportFragmentManager.beginTransaction()
         fragmentTransaction.replace(binding.FragmentL1.id, fragment, "FragmentChats")
@@ -77,7 +77,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun verFragmentMisAnuncios(){
-        binding.TituloRl.text = "MisAnuncios"
+        binding.TituloRL.text = "MisAnuncios"
         val fragment = FragmentMisAnuncios()
         val fragmentTransaction = supportFragmentManager.beginTransaction()
         fragmentTransaction.replace(binding.FragmentL1.id, fragment, "FragmentMisAnuncios")
@@ -86,7 +86,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun verFragmentCuenta(){
-        binding.TituloRl.text = "Cuenta"
+        binding.TituloRL.text = "Cuenta"
         val fragment = FragmentCuenta()
         val fragmentTransaction = supportFragmentManager.beginTransaction()
         fragmentTransaction.replace(binding.FragmentL1.id, fragment, "FragmentCuenta")
